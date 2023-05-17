@@ -1,0 +1,130 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Roboto', sans-serif;
+}
+@media(min-width:320px){
+	.container{
+	width:100%;
+	margin:auto;
+	}
+	.pro-col{
+	width:100%;
+	}
+}
+@media(min-width:620px){
+	.container{
+	width:90%;
+	margin:auto;
+	}
+	.pro-row{
+	display:flex;
+	flex-wrap: wrap;
+	}
+	.pro-col{
+	width:25%;
+	}
+}
+@media(min-width:1000px){
+	.container{
+	width:90%;
+	margin:auto;
+	}
+	.pro-row{
+	display:flex;
+	flex-wrap: wrap;
+	}
+	.pro-col{
+	width:25%;
+	}
+}
+/* MEDIA QUERY ENDS */
+.pro-sec{
+	margin-top:50px;
+	background-color: #d8d8d869;
+}
+.pro-head{
+	text-align:center;
+	padding-bottom: 40px;
+	text-transform: capitalize;
+}
+.pro-head h4{
+	font-size: 14px;
+    letter-spacing: 1px;
+    color: gray;
+	padding: 20px 5px 5px;
+}
+.pro-head h3{
+	font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.pro-card{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+    align-items: center;
+	
+}
+.icon{
+	height: 120px;
+    width: 120px;
+    border: 2px dashed #2196f38a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+.icon i{
+	height: 80px;
+    width: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 30px;
+	background-color:#fff;
+    color: #0000ffb8;
+	border:none;
+}
+.pro-para{
+	text-align: center;
+    padding: 20px 10px;
+}
+.pro-para h2{
+	font-size: 17px;
+    text-transform: capitalize;
+    color: #433737;
+	padding-bottom: 10px;
+}
+.pro-para p{
+	font-size: 15px;
+    line-height: 22px;
+    color: #7a7171fc;
+}
+.col-big .icon{
+	height: 160px;
+    width: 160px;
+	border: 2px dashed #2196f38a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+}
+.col-big .icon i{
+	height: 110px;
+    width: 110px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    font-size: 40px;
+    background-color:#fff;
+   color: #0000ffb8;
+	border:none;
+}
